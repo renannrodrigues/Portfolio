@@ -9,14 +9,6 @@ function ativaLetra(elemento){
         }, 75 * i);
     });
 
-    // Tempo total da digitação
-    const tempoTotal = 75 * arrTexto.length;
-
-    // Apaga tudo de uma vez e recomeça
-    setTimeout(() => {
-        elemento.innerHTML = '';
-        ativaLetra(elemento);
-    }, tempoTotal + 1000); // pausa de 1s antes de recomeçar
 }
 
 const titulo = document.querySelector('.digitando');
