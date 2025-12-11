@@ -827,6 +827,62 @@ main .sobre {
     border: 1px solid #333;
 }
 
+/* ===== CARDS DE PROJETOS ===== */
+
+.projects_armazenamento ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    padding: 40px 0;
+}
+
+/* Cada card */
+.projects_armazenamento ul li {
+    list-style: none;
+    overflow: hidden;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    transform: translateY(0);
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0 0 0 transparent;
+}
+
+/* Quando o card estiver visível */
+.projects_armazenamento ul li.ativo {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Link */
+.projects_armazenamento ul li a {
+    display: block;
+}
+
+/* Imagem do card — TAMANHO CONTROLADO */
+.projects_armazenamento ul li img {
+    width: 320px;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+    transition: 0.4s ease;
+    object-fit: cover;
+}
+
+/* Hover bonito */
+.projects_armazenamento ul li:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.08);
+}
+
+.projects_armazenamento ul li:hover img {
+    transform: scale(1.06);
+    filter: brightness(1.1);
+}
+
+
 
 @keyframes animationButton {
     0% {
