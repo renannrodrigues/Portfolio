@@ -48,7 +48,7 @@ export const projects = [
     featured: true
   },
   {
-    id: 5,
+    id: 8,
     title: 'Lairton Trufas',
     subtitle: 'E-commerce',
     description: 'Site de vendas para loja de trufas artesanais com catálogo de produtos e sistema de carrinho de compras.',
@@ -64,11 +64,11 @@ export const projects = [
     title: 'Dashboard Analytics',
     subtitle: 'Web App',
     description: 'Dashboard interativo para análise de dados com gráficos dinâmicos e métricas em tempo real.',
-    image: '/imgs/project-placeholder.jpg',
+    image: '/imgs/project8.gif',
     technologies: ['React', 'Tailwind', 'Chart.js', 'API'],
     category: ['frontend', 'webapp'],
-    liveUrl: '#',
-    githubUrl: 'https://github.com/renannrodrigues',
+    liveUrl: 'https://dashboard-pearl-eight-13.vercel.app/',
+    githubUrl: '#',
     featured: false
   },
   {
@@ -84,7 +84,7 @@ export const projects = [
     featured: false
   },
   {
-    id: 8,
+    id: 5,
     title: 'MarisaStore',
     subtitle: 'E-commerce',
     description: 'Loja online para venda de produtos de limpeza com sistema de pagamento integrado via whattsapp.',
