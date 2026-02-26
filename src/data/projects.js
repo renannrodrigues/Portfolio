@@ -73,13 +73,13 @@ export const projects = [
   },
   {
     id: 7,
-    title: 'Task Manager Pro',
+    title: 'Arte in Tavola',
     subtitle: 'Aplicação',
-    description: 'Gerenciador de tarefas completo com funcionalidades de organização, priorização e colaboração em equipe.',
-    image: '/imgs/project-placeholder.jpg',
-    technologies: ['JavaScript', 'Node.js', 'MongoDB', 'REST API'],
+    description: 'Site institucional com cardápio digital para restaurante, permitindo aos clientes visualizar pratos e fazer reservas.',
+    image: '/imgs/project9.gif',
+    technologies: ['JavaScript', 'Node.js', 'Firebase', 'Vite'],
     category: ['fullstack', 'webapp'],
-    liveUrl: '#',
+    liveUrl: 'https://arte-in-tavola.vercel.app',
     githubUrl: null,
     featured: false
   },
